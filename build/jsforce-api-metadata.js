@@ -14827,7 +14827,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	module.exports = {
 
-	  supported: typeof window !== 'undefined' && typeof document !== undefined,
+	  supported: typeof window !== 'undefined' && typeof document !== 'undefined',
 
 	  createRequest: function(jsonpParam, timeout) {
 	    jsonpParam = jsonpParam || 'callback';
